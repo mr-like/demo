@@ -1,0 +1,14 @@
+server:
+  port: 7702
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://root:dmw@localhost:7702/eureka/
+security:
+  user:
+    name: root
+    password: dmw
+  basic:
+    enabled: true
